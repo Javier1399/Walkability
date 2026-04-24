@@ -165,6 +165,9 @@ Key findings from the correlation heatmaps:
 
 This guided the PCA feature selection.
 
+<p align="center">
+  <img src="documents/images/PCA_plot.png" width="700" alt="Gráfico de PCA de Indicadores Urbanos">
+</p>
 ---
 
 ### Phase 3 — PCA: Revealing the City's Hidden Structure
