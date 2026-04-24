@@ -1,6 +1,11 @@
 
 # Urban Vitality Simulator — Walkability Analysis for Mexican Cities
 
+<p align="center">
+  <img src="documents/images/dashboard_page1.png" width="450" alt="Dashboard Página 1">
+  <img src="documents/images/dashboard_page2.png" width="450" alt="Dashboard Página 2">
+</p>
+
 > **An urban intelligence platform that transforms raw geospatial indicators into actionable intervention strategies for city planners and researchers.**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app)
