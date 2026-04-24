@@ -427,7 +427,7 @@ plotly>=5.18.0
 
 ## 📓 Notebook
 
-The full analysis pipeline is documented in [`notebooks/dashboard_walkability.ipynb`](notebooks/dashboard_walkability.ipynb), designed to run in **Google Colab**. The notebook covers:
+The full analysis pipeline is documented in [`dashboard_walkability.ipynb`](notebooks/dashboard_walkability.ipynb), designed to run in **Google Colab**. The notebook covers:
 
 1. Data loading and exploratory analysis
 2. OSM + INEGI data fusion (`process_point_4`)
