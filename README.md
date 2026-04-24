@@ -55,7 +55,7 @@ The dashboard works like **SimCity meets urban research**: select a city, explor
 
 ---
 
-## Dashboard Tabs
+##📊 Dashboard Tabs
 
 ### ⬡ Map of Opportunities
 The main view shows all hexagons colored by their **RIM v4 classification** — a seven-level system that tells you immediately which zones are consolidated, which are transitioning, and which suffer from territorial exclusion. A right panel shows the diagnostic profile of any selected zone, including walk times, intervention recommendation, and the minimum threshold values needed to transition to the next urban cluster.
