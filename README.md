@@ -206,10 +206,9 @@ With the data projected into PCA space, we applied K-Means clustering. We tested
 
 When mapped back to the hexagonal grid, the clusters aligned perfectly with what you'd expect geographically: the urban core concentrated in the historic center, periurban zones forming the intermediate ring, and peripheral clusters extending to the city limits and beyond. **The algorithm had learned the city's spatial structure without ever seeing its geography** — only the indicator values.
 
-| Regionalización | Análisis de Componentes |
-| :--- | :--- |
-| <img src="documents/images/cluster_atilaquia.png" width="300"> | <img src="documents/images/PCA_plot.png" width="300"> |
-| <img src="documents/images/cluster_guanajuato.png" width="300"> | <img src="documents/images/pca_candidates.png" width="300"> |
+| Clusters: Atitalaquia | Clusters: Guanajuato |
+| :---: | :---: |
+| <img src="documents/images/cluster_atilaquia.png" width="430" alt="Clusters Atitalaquia"> | <img src="documents/images/cluster_guanajuato.png" width="430" alt="Clusters Guanajuato"> |
 
 ---
 
