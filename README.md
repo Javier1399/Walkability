@@ -36,7 +36,7 @@ This question drove every methodological decision in the pipeline.
 
 ## 🚀 Live Dashboard
 
-> 🔗 **[Launch Urban Vitality Simulator →](https://your-app-url.streamlit.app)**
+> 🔗 **[Launch Urban Vitality Simulator →](https://movility-nvq2bcvt9w5keywfkjf8ze.streamlit.app/)**
 
 The dashboard works like **SimCity meets urban research**: select a city, explore its walkability zones, identify areas ready for intervention, and simulate the impact of adding a park, a food market, or improving street connectivity — all grounded in real geospatial data and a trained optimization model.
 
