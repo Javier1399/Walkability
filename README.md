@@ -73,23 +73,18 @@ urban-vitality-simulator/
 │
 ├── README.md                          # This file
 ├── LICENSE
-├── requirements.txt
-├── .streamlit/
-│   └── config.toml                    # Dark theme configuration
+├── requirements.txt                   # Dark theme configuration
 │
 ├── app.py                             # Streamlit dashboard (main entry point)
 │
 ├── data/
 │   ├── Atitalaquia_urban_analysis_final.gpkg   # Final output — 422 hexagons
 │   ├── Guanajuato_urban_analysis_final.gpkg    # Final output — 29,023 hexagons
-│   └── pipeline_metadata_v4.json              # Pipeline parameters and key findings
 │
 ├── notebooks/
 │   └── dashboard_walkability.ipynb    # Full analysis pipeline (Google Colab)
 │
 ├── docs/
-│   ├── pipeline_overview.md           # Technical pipeline documentation
-│   ├── data_dictionary.md             # Column definitions for the .gpkg files
 │   └── images/
 │       ├── pca_scree_plot.png
 │       ├── clusters_atitalaquia.png
@@ -98,8 +93,7 @@ urban-vitality-simulator/
 │       ├── rim_classification_map.png
 │       └── dashboard_screenshot.png
 │
-└── scripts/
-    └── consolidation_final.py         # Post-pipeline consolidation script
+└── 
 ```
 
 ---
