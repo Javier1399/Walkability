@@ -9,7 +9,7 @@
 
 ---
 
-## 🔬 Research Context
+## Research Context
 
 Mexico's rapid urbanization demands new tools for evaluating urban quality of life. Metropolitan areas frequently follow dispersed, vehicle-oriented development patterns that leave pedestrians underserved — particularly in peripheral zones.
 
@@ -18,13 +18,13 @@ This project replicates and extends the methodology from *"Walkable Southeast As
 **Pilot cities:** Atitalaquia (Hidalgo) and Guanajuato (Guanajuato)  
 **Collaboration:** [Universidad de Texas en San Antonio (UTSA)](https://www.utsa.edu/) — comparative analysis between Monterrey and San Antonio  
 **Project lead:** Francisco Javier Benita Maldonado  
-**Technical development:** Javier (Tecnológico de Monterrey, Querétaro Campus)
+**Technical development:** Francisco Javier Romero Santos (Tecnológico de Monterrey, Querétaro Campus)
 
 > ⚠️ All pipeline development, modeling decisions, and dashboard implementation documented in this repository were developed independently by the repository author.
 
 ---
 
-## 🎯 Central Research Question
+## Central Research Question
 
 > *"What makes a city walkable — and how can we identify the minimum intervention needed to improve urban mobility in any given zone?"*
 
@@ -50,7 +50,7 @@ The dashboard works like **SimCity meets urban research**: select a city, explor
 
 ---
 
-## 📊 Dashboard Tabs
+## Dashboard Tabs
 
 ### ⬡ Map of Opportunities
 The main view shows all hexagons colored by their **RIM v4 classification** — a seven-level system that tells you immediately which zones are consolidated, which are transitioning, and which suffer from territorial exclusion. A right panel shows the diagnostic profile of any selected zone, including walk times, intervention recommendation, and the minimum threshold values needed to transition to the next urban cluster.
@@ -61,7 +61,7 @@ Select a zone from the sidebar, choose an intervention type, and set coverage. T
 - Before/after walk time chart — **only the categories affected by the chosen intervention change**, reflecting the real urbanistic logic (adding a food market reduces food access time, not healthcare time)
 - Population impacted and number of hexagons that could cross the cluster frontier
 
-### 📊 Strategic Analysis
+### Strategic Analysis
 Side-by-side histograms comparing walk score and info gap distributions across both cities, a grouped bar chart of RIM classification proportions, and a comparative KPI table.
 
 ---
@@ -104,7 +104,7 @@ urban-vitality-simulator/
 
 ---
 
-## 🏗️ Full Pipeline — From Raw Data to Urban Intelligence
+## Full Pipeline — From Raw Data to Urban Intelligence
 
 ### Phase 0 — Starting Point
 
@@ -450,7 +450,7 @@ The full analysis pipeline is documented in [`notebooks/dashboard_walkability.ip
 
 ---
 
-## 🗺️ Reproducibility
+## Reproducibility
 
 The analysis was designed for reproducibility. All pipeline parameters are documented in `data/pipeline_metadata_v4.json`, including:
 - Feature list for PCA v2
@@ -468,14 +468,14 @@ New cities can be analyzed by generating hexagonal grid indicators in the same f
 If you use this work in your research, please cite:
 
 ```
-Javier [Last Name], "Urban Vitality Simulator: Walkability Analysis and 
+Francisco Javier Romero Santos, "Urban Vitality Simulator: Walkability Analysis and 
 Intervention Optimization for Mexican Cities," Tecnológico de Monterrey, 
 Querétaro Campus, 2025. Available: https://github.com/your-username/urban-vitality-simulator
 ```
 
 ---
 
-## 📄 License
+## License
 
 MIT License — see [LICENSE](LICENSE) for details.
 
