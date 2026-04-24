@@ -282,6 +282,15 @@ ICT = number of categories with walk_time ≤ 20 minutes   # Integer 0–4
 
 A hexagon with ICT=4 has all four service types within 20 minutes walking. ICT=0 means nothing is reachable on foot within 20 minutes.
 
+<p align="center">
+  <img src="documents/images/walkscore_atitalaquia.png" width="400" alt="Walkscore Atitalaquia">
+  <img src="documents/images/walkscore_guanajuato.png" width="400" alt="Walkscore Guanajuato">
+</p>
+
+<p align="center">
+  <img src="documents/images/walk_times.png" width="600" alt="Análisis de Tiempos de Caminata">
+</p>
+
 ---
 
 ### Phase 7 — PCA v2 and the Institutional Bias Problem
