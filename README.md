@@ -337,6 +337,10 @@ A score near 1.0 means the hexagon is equidistant between its current cluster an
 
 **RIM v4 classification system:**
 
+<p align="center">
+  <img src="documents/images/rim_clasification.png" width="650" alt="Clasificación bajo modelo RIM">
+</p>
+
 | Classification | Description | Typical profile |
 |---------------|-------------|-----------------|
 | **Consolidado** | Urban core — no intervention needed | Cluster 1 |
