@@ -223,6 +223,10 @@ A secondary K-Means (k=2, silhouette=0.534) on connectivity and accessibility fe
 
 The five resulting sub-archetypes, when mapped, followed the expected geographic order from city center outward — validating that the sub-clustering captured real urban structure.
 
+<p align="center">
+  <img src="documents/images/subclusters.png" width="300" alt="Subclusters">
+</p>
+
 ---
 
 ### Phase 6 — Walk Score: Giving Every Hexagon a Mobility Value
