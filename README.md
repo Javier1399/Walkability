@@ -165,9 +165,6 @@ Key findings from the correlation heatmaps:
 
 This guided the PCA feature selection.
 
-<p align="center">
-  <img src="documents/images/PCA_plot.png" width="700" alt="Gráfico de PCA de Indicadores Urbanos">
-</p>
 ---
 
 ### Phase 3 — PCA: Revealing the City's Hidden Structure
@@ -188,6 +185,10 @@ X_pca = pca.fit_transform(X_scaled)
 
 **Initial PCA (v1) included all 15 variables, including healthcare and educational counts.** This later caused problems in the intervention recommender (see Phase 6) and led to a redesign.
 
+<p align="center">
+  <img src="documents/images/PCA_plot.png" width="700" alt="Gráfico de PCA de Indicadores Urbanos">
+</p>
+
 ---
 
 ### Phase 4 — K-Means Clustering: Discovering Urban Archetypes
@@ -204,6 +205,11 @@ With the data projected into PCA space, we applied K-Means clustering. We tested
 **Global silhouette score: 0.389** — indicating meaningful cluster separation. Notably, Cluster 1 (urban core) achieved a silhouette of 0.597, confirming that the city center is clearly distinguishable from all other zones.
 
 When mapped back to the hexagonal grid, the clusters aligned perfectly with what you'd expect geographically: the urban core concentrated in the historic center, periurban zones forming the intermediate ring, and peripheral clusters extending to the city limits and beyond. **The algorithm had learned the city's spatial structure without ever seeing its geography** — only the indicator values.
+
+| Regionalización | Análisis de Componentes |
+| :--- | :--- |
+| <img src="documents/images/cluster_atilaquia.png" width="300"> | <img src="documents/images/PCA_plot.png" width="300"> |
+| <img src="documents/images/cluster_guanajuato.png" width="300"> | <img src="documents/images/pca_candidates.png" width="300"> |
 
 ---
 
