@@ -1,5 +1,5 @@
-[README.md](https://github.com/user-attachments/files/27046971/README.md)
-# 🏙️ Urban Vitality Simulator — Walkability Analysis for Mexican Cities
+
+# Urban Vitality Simulator — Walkability Analysis for Mexican Cities
 
 > **An urban intelligence platform that transforms raw geospatial indicators into actionable intervention strategies for city planners and researchers.**
 
